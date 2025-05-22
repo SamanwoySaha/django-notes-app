@@ -2,13 +2,6 @@
 pipeline {
     agent {label "vinod"}
     stages {
-        stage("hello") {
-            steps {
-                script {
-                    hello()
-                }
-            }
-        }
         stage("Code") {
             steps{
                 script{
